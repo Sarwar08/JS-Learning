@@ -61,3 +61,40 @@ console.log(Object.entries(tinderUser))
 // we can retrieve values also.
 
 console.log(tinderUser.hasOwnProperty('isLoggedIn'))
+
+
+// L-18 started - object destructuring 
+
+const course = {
+    coursename: "Js expalined",
+    price: "999",
+    courseInstructor: "sarwar"
+}
+
+// course.courseInstructor
+
+// const {courseInstructor} = course
+const {courseInstructor: instructor} = course
+
+// json
+{
+    "name": "sarwar"
+    "courseName": "Js"
+    "price": "free"
+}
+
+// api can be 
+{
+
+}
+
+// array
+
+[
+    {},
+    {},
+    {}
+]
+
+// randomuser.me
+
